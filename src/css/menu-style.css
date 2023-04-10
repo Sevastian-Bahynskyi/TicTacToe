@@ -1,0 +1,16 @@
+
+
+#menu-pane{
+  -fx-background-color: linear-gradient(to right, rgb(52, 232, 158), rgb(15, 52, 67));
+  -fx-text-fill: white;
+}
+
+Button{
+  -fx-border-radius: 50px;
+  -fx-background-radius: 50px;
+  -fx-font-size: 15px;
+  -fx-text-fill: #800080;
+  -fx-font-weight: bold;
+  -fx-background-color: #ffffff;
+}
+

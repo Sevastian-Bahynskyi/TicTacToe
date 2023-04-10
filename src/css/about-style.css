@@ -1,0 +1,12 @@
+#main-pane{
+    -fx-background-color: linear-gradient(from 25% 25% to 100% 100%, rgb(95, 10, 135), rgb(164, 80, 139));
+}
+Button{
+    -fx-background-color: #3EC70B;
+    -fx-font-weight: bold;
+    -fx-text-fill: white;
+}
+
+Button:hover{
+    -fx-background-color: rgb(62, 199, 11, 0.8);
+}

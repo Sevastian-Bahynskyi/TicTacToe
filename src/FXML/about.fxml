@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane id="main-pane" maxHeight="200.0" maxWidth="450.0" minHeight="200.0" minWidth="450.0" prefHeight="200.0" prefWidth="450.0" stylesheets="@../css/about-style.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.MenuController">
+   <children>
+      <Label layoutX="163.0" layoutY="14.0" text="About" textFill="WHITE">
+         <font>
+            <Font name="Eras Bold ITC" size="40.0" />
+         </font>
+         <effect>
+            <DropShadow offsetX="10.0" />
+         </effect>
+      </Label>
+      <Text fill="#f49d1a" fontSmoothingType="LCD" layoutX="24.0" layoutY="78.0" strokeType="OUTSIDE" strokeWidth="0.0" text="It's the fucking tic tac toe game, what do you want to know more about it? Well, you can donate me for coffee: 4871 4503 1665 0790. Wait ... I forgot that I don't drink coffee." textAlignment="JUSTIFY" wrappingWidth="406.92505264282227">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Text>
+      <Button fx:id="menuButton" layoutX="163.0" layoutY="155.0" mnemonicParsing="false" onAction="#handleAboutButton" prefHeight="30.0" prefWidth="128.0" text="MENU">
+         <font>
+            <Font size="14.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+   </children>
+</AnchorPane>

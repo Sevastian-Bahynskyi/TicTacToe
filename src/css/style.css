@@ -1,0 +1,7 @@
+#grid-pane{
+    -fx-background-color: linear-gradient(to left, #0BAB64, #3BB78F);
+}
+
+#players-box{
+  -fx-background-color: #233329;
+}

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="menu-pane" prefHeight="400.0" prefWidth="300.0" stylesheets="@../css/menu-style.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.MenuController">
+   <children>
+      <Label id="game-header" alignment="CENTER" contentDisplay="CENTER" layoutY="37.0" prefHeight="42.0" prefWidth="300.0" text="Tic Tac Toe" textFill="WHITE">
+         <font>
+            <Font name="Eras Bold ITC" size="36.0" />
+         </font>
+      </Label>
+      <Button fx:id="playerVsPlayer" layoutX="75.0" layoutY="151.0" mnemonicParsing="false" onAction="#handleOnClick" onMouseEntered="#handleOnHover" onMouseExited="#handleOnLeave" prefHeight="35.0" prefWidth="150.0" text="Player VS Player" AnchorPane.bottomAnchor="224.8" AnchorPane.topAnchor="140.0">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="playerVsComputer" layoutX="75.0" layoutY="220.0" mnemonicParsing="false" onAction="#handleOnClick" onMouseEntered="#handleOnHover" onMouseExited="#handleOnLeave" prefHeight="35.0" prefWidth="150.0" text="Player VS PC" AnchorPane.bottomAnchor="144.8" AnchorPane.topAnchor="220.0">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button fx:id="about" layoutX="75.0" layoutY="289.0" mnemonicParsing="false" onAction="#handleOnClick" onMouseEntered="#handleOnHover" onMouseExited="#handleOnLeave" prefHeight="35.0" prefWidth="150.0" text="About" AnchorPane.bottomAnchor="64.8" AnchorPane.topAnchor="300.0">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+   </children>
+</AnchorPane>
